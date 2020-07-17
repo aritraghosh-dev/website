@@ -1,0 +1,33 @@
+body{
+    text-align: center !important ;
+    display: flex;
+    color: #fff;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem  rgba(0, 0, 0, .5);
+    height: 100%;
+    background-color: #333;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+*::before,*::after {
+    box-sizing: border-box;
+}
+.cointaner {
+    max-width: 42em;
+    margin-left: auto !important;
+    margin-right: auto !important ;
+    padding:1rem !important;
+    height: 100% !important;
+    flex-direction: column !important;
+    display: flex !important;
+    text-align: center !important;
+    
+
+}
+header{
+    margin-bottom: auto !important;
+    display: block;
+}
